@@ -16,7 +16,7 @@ gem 'acts_as_votable', '~> 0.10.0'
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
 gem 'record_tag_helper', '~> 1.0'
 gem 'nokogiri', '~> 1.8', '>= 1.8.2'
-
+gem 'loofah', '~> 2.2.1'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
